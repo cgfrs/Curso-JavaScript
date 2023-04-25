@@ -1,37 +1,46 @@
-//Imprimindo em tel
-console.log('Java script funionando');
+//OPERADORES DE ATRIBUIÇÃO
+
+//let num1 = 5
+//let nome = 'Rodrigo'
+
+//console.log(num1)
+//console.log(num1 += 20)
+
+// OPERADORES DE COMPARAÇÃO
+//console.log(num1 > 0)
+//console.log(num1 < 0)
+//console.log(num1 >= 0)
+//console.log(num1 <= 0)
+
+//console.log(num1 === 5) //PARA SABER SE É IGUAL
+//console.log(num1 !== 5) //PARA SABER SE NÃO É IGUAL
+
+//console.log(nome === 'Rodrigo') //PARA SABER SE É IGUAL
+//console.log(nome !== 'Rodrigo') //PARA SABER SE NÃO É IGUAL
 
 
-//VÁRIÁVEIS JS
-let firstName = 'Rodrigo'; //variavel não pode começar com número
-let lastName = 'Azevedo';
-const years = '36'; //Usar a variável const para não ser possivel 
+// OPERADORES DE ternário
 
+//let driver = 150
+//let speed = driver > 110 ? 'acima' : 'abaixo'
+//console.log(speed);
 
-//OBJETOS JS
-let client =  {
-    firstName: 'Rodrigo',
-    lastName: 'Azevedo',
-    years: 38
-}
-console.log(client)
+    //IF and ELSE
+    let driverSpeed = 60
 
-//ARRAYS
-let friends = ['Carol', 'Nando', 'Felipe']
-friends[2] = 'Carlos' // Substitui o arrey de número 2 que no caso é o Felipe
-console.log(friends)
+    if (driverSpeed == 80) {
+        console.log('Fast')
+    } 
+    else if (driverSpeed < 40 && driverSpeed < 80) {
+        console.log('Slow')
+    }
 
-//FUNÇÕES - FUNCTIONS com tarefas
-function saleStatus(status, total) {
-   console.log('transaction '  + status + ' total amount: $ ' + total)
-}
-saleStatus('approved', 30)
+    else if (driverSpeed == 80) {
+        console.log('Normal')
+    }
 
-//FUNÇÕES - FUNCTIONS com cálculos matemkáticos
-
-
-
-
-
-
-
+    else {
+        console.log('Very Fats')
+    }
+    
+    
