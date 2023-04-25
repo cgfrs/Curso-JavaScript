@@ -43,4 +43,20 @@
         console.log('Very Fats')
     }
     
+
+
+
+    let nome = ('Rodrigo')
+
+    switch (nome) {
+        case Rodrigo:
+            console.log(Rod)
+            break;
+
+            case Eduardo:
+            console.log(Edu)
+            break;
     
+        default:
+            break;
+    }
