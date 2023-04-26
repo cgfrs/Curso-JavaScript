@@ -10,5 +10,6 @@ switch (airport) {
         break;
 
     default:
+        console.log('none')
         break;
 }
