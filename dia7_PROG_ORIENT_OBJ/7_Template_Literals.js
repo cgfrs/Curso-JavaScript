@@ -10,8 +10,9 @@
     let name = 'Rodrigo'
     let team = 'Gama'
     let company = 'GbTech'
-    
-    let email = `My name is ${name}
+
+    let email = `
+    My name is ${name}
     I'm from the team ${team} and I have the honor 
     of working for the company ${company}`
         console.log(email)
