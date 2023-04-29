@@ -1,0 +1,16 @@
+
+
+let productValue = Number(prompt('Emter the product value: '))
+
+if(productValue >= 20) {
+    document.getElementById('result').innerHTML = 'Approved'
+
+}
+else {
+    document.getElementById('result').innerHTML = 'Denid'
+}
+
+
+
+
+
